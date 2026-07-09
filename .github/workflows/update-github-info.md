@@ -1,8 +1,6 @@
 ---
 name: update-github-info
 description: Draft website updates for Mona's GitHub Info site from official GitHub sources.
-engine: copilot
-model: gpt-5-mini
 on:
   workflow_dispatch:
   schedule: daily
@@ -11,6 +9,8 @@ safe-outputs:
     title-prefix: "[mona] "
     draft: true
     fallback-as-issue: false
+  assign-to-agent:
+    model: gpt-5-mini
 tools:
   edit:
   web-fetch:
