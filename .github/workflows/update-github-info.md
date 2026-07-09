@@ -1,8 +1,6 @@
 ---
 name: update-github-info
 description: Draft website updates for Mona's GitHub Info site from official GitHub sources.
-models:
-  - gpt-4o
 on:
   workflow_dispatch:
   schedule: daily
@@ -29,7 +27,7 @@ Use these sources:
 - GitHub Changelog: https://github.blog/changelog/
 - Awesome Copilot Workflows: https://awesome-copilot.github.com/workflows/
 
-Update `site/content/github-info.md` with concise, practical updates for readers and include source context when content comes from the GitHub Blog, GitHub Changelog, or Awesome Copilot Workflows.
+Update `site/content/github-info.md` with concise, practical updates for readers.
 
 Open a pull request for Mona to review. 
 Use a pull request title that mentions Mona or GitHub Info. 
