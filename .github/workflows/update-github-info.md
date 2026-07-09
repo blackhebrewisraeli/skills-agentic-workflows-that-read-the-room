@@ -8,9 +8,7 @@ safe-outputs:
   create-pull-request:
     title-prefix: "[mona] "
     draft: true
-    fallback-as-issue: false
-  assign-to-agent:
-    model: gpt-5-mini
+    fallback-as-issue: true
 tools:
   edit:
   web-fetch:
