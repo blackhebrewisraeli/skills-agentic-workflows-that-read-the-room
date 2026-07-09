@@ -24,6 +24,7 @@ This is a **dispatcher agent** that routes your request to the appropriate speci
 - **CLI commands and triggering workflows**: Routes to `cli-commands` guide — consult this whenever the user asks how to run, compile, debug, or manage workflows from the command line, or when they need the MCP tool equivalent of a `gh aw` command
 - **Reducing token consumption / cost optimization**: Routes to `token-optimization` guide — consult this whenever the user asks how to reduce token usage, lower costs, speed up workflows, or measure the impact of prompt changes with experiments
 - **Choosing workflow architectures and design patterns**: Routes to `patterns` guide — consult this whenever the user asks for strategy, architecture, operating models, or pattern selection for agentic workflows
+- **When creating or editing agentic workflow files, do not compile them**: Only create or update the markdown workflow file.
 
 Workflows may optionally include:
 
