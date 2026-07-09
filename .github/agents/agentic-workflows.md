@@ -24,7 +24,6 @@ This is a **dispatcher agent** that routes your request to the appropriate speci
 - **CLI commands and triggering workflows**: Routes to `cli-commands` guide — consult this whenever the user asks how to run, compile, debug, or manage workflows from the command line, or when they need the MCP tool equivalent of a `gh aw` command
 - **Reducing token consumption / cost optimization**: Routes to `token-optimization` guide — consult this whenever the user asks how to reduce token usage, lower costs, speed up workflows, or measure the impact of prompt changes with experiments
 - **Choosing workflow architectures and design patterns**: Routes to `patterns` guide — consult this whenever the user asks for strategy, architecture, operating models, or pattern selection for agentic workflows
-- **When creating or editing agentic workflow files, do not compile them**: Only create or update the markdown workflow file.
 
 Workflows may optionally include:
 
@@ -55,7 +54,7 @@ When you interact with this agent, it will:
 
 ## Available Prompts
 
-> **Note**: The prompt and reference files listed below are located in the [`github/gh-aw`](https://github.com/github/gh-aw) repository and are **not available locally** in this repository. Load them from their public URLs.
+> **Note**: The prompt and reference files listed below are located in the [`github/gh-aw`](https://github.com/github/gh-aw) repository and are **not available locally** in this repository. Load them from their public URLs. When creating or editing agentic workflow files, do not compile them. Only create or update the markdown workflow file.
 
 ### Create New Workflow
 **Load when**: User wants to create a new workflow from scratch, add automation, or design a workflow that doesn't exist yet
