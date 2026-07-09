@@ -9,8 +9,8 @@ safe-outputs:
     title-prefix: "[mona] "
     draft: true
     fallback-as-issue: false
-    assign-to-agent:
-      model: gpt-4o
+  assign-to-agent:
+    model: gpt-4o
 tools:
   edit:
   web-fetch:
